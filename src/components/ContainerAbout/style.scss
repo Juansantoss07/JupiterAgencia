@@ -41,3 +41,11 @@
 
    
 }
+
+//MOBILE
+
+@media (max-width:904px){
+    .containerAbout_background{
+        background-color: $colorOrangeHeader !important;
+    }
+}

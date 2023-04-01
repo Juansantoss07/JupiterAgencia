@@ -86,17 +86,19 @@
         flex-direction: column;
         padding-top: 10rem;
 
+        .containerHome_text{
+            .btn-mobile{
+                background-color: $colorOrange;
+                color: $colorBlack;
+                box-shadow: 10px 10px $colorOrangeHeader;
+            }
+        }
+
         .containerHome_text,
         .containerHome_img{
             width: 100%;
             align-items: center;
             text-align: center;
-        }
-
-        .containerHome_img{
-            img{
-                width: 25% !important;
-            }
         }
     }
 }

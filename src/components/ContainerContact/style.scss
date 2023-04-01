@@ -111,11 +111,7 @@
         
         .containerContact_right,
         .containerContact_text{
-            padding: 2em;
-        }
-
-        .containerContact_btns{
-            flex-direction: column !important;
+            padding: 2em 0;
         }
     }
    
@@ -131,7 +127,27 @@
         width: 100%;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        padding: 2em;
+       }
+
+       .containerContact_right{
+        p{
+            width: 100%;
+        }
+
+        .containerContact_btns{
+            width: 100%;
+
+
+            svg{
+                margin-right: 0 !important;
+            }
+
+            .btn-default > svg + span {
+               display: none;
+              }
+              
+        }
        }
     }
    

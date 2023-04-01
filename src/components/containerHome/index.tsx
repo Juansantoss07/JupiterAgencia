@@ -17,7 +17,7 @@ export function ContainerHome(){
                     <p>
                         O futuro é digital - e nós o construímos.
                     </p>
-                    <button className="btn-default">
+                    <button className="btn-default btn-mobile">
                         Entre em contato
                     </button>
                 </div>
