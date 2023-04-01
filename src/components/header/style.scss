@@ -1,5 +1,54 @@
 @import "../../variables.scss";
 
+.header-mobile{
+  background-color: $colorOrangeHeader;
+  backdrop-filter: blur(12px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0 ;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+
+  .btn-close-header{
+    width: 100%;
+    padding: 0 4em;
+
+    svg{
+      color: $colorOrange;
+    }
+  }
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-weight: 900;
+    font-size: 32px;
+    padding: 0 2em;
+    margin-bottom: 4em;
+    width: 100%;
+
+    a{
+      color: $textDefault;
+      text-decoration: none;
+
+      li{
+        list-style: none;
+        border-bottom: 2px solid $colorOrange;
+      }
+    }
+  }
+}
+
 header{
     width: 100%;
     z-index: 1;
@@ -17,6 +66,11 @@ header{
     right: 0;
     left: 0;
     font-weight: 900;
+
+
+    .menu-btn-mobile{
+      display: none;
+    }
 
     .logo{
       span{
@@ -55,6 +109,15 @@ header{
 
 @media (max-width:904px){
   header{
+
+    
+
+    flex-direction: row-reverse;
+
+    .menu-btn-mobile{
+      display: block;
+    }
+
     ul{
       display: none;
     }
