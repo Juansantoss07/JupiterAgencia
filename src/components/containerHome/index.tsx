@@ -1,7 +1,15 @@
+import ScrollReveal from 'scrollreveal';
+import { useEffect } from 'react';
 import "./style.scss";
 
 export function ContainerHome(){
+    useEffect(() => {
+        ScrollReveal().reveal('.containerHome_img', { origin:'right', distance:'100%', duration:2500 });
+        ScrollReveal().reveal('.containerHome_text', { origin:'left', distance:'100%', duration:2500 });
+      }, []);
+    
     return (
+        
         <>
             <section className="containerHome">
                 <div className="containerHome_text">

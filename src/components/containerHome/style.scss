@@ -21,7 +21,7 @@
     .containerHome_img{
         align-items: center;
         width: 50%;
-        
+
         img{
             width: 60%;
             transition: 1s;
@@ -68,3 +68,14 @@
         width: 50%;
     }
 }
+
+@keyframes revealJupiter{
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
