@@ -1,0 +1,70 @@
+@import "../../variables.scss";
+
+.containerHome{
+    background: linear-gradient($colorOrange, $colorBlack);
+    height:100vh;
+    padding-top: 70px;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0 2em;
+
+    .containerHome_text,
+    .containerHome_img{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containerHome_img{
+        align-items: center;
+        width: 50%;
+        
+        img{
+            width: 60%;
+            transition: 1s;
+            animation: moveJupiter 3s linear infinite;
+
+
+            &:hover{
+                width: 65%;
+            }
+        }
+    }
+
+    .containerHome_text{
+        align-items: flex-start;
+        color: $textDefault;
+        width: 40%;
+
+        h1{
+            font-size: 66px;
+            margin-bottom: .5em;
+        }
+
+        p{
+            font-size: 18px;
+            margin: .5em 0;
+        }
+
+        button{
+            margin-top: 1em;
+        }
+    }
+}
+
+@keyframes moveJupiter{
+    0%{
+        width: 50%;
+    }
+
+    50%{
+        width: 55%;
+    }
+
+    100%{
+        width: 50%;
+    }
+}
