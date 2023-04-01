@@ -1,11 +1,13 @@
 import ScrollReveal from 'scrollreveal';
 import { useEffect } from 'react';
+import typeWriter from '../../js/typeWriter';
 import "./style.scss";
 
 export function ContainerHome(){
     useEffect(() => {
         ScrollReveal().reveal('.containerHome_img', { origin:'right', distance:'100%', duration:2500 , mobile:false});
         ScrollReveal().reveal('.containerHome_text', { origin:'left', distance:'100%', duration:2500 , mobile:false});
+        typeWriter(document.querySelector('.teste') as HTMLElement);
       }, []);
     
     return (
@@ -14,7 +16,7 @@ export function ContainerHome(){
             <section className="containerHome">
                 <div className="containerHome_text">
                     <h1>Jupiter Agência</h1>
-                    <p>
+                    <p className='teste'>
                         O futuro é digital - e nós o construímos.
                     </p>
                     <button className="btn-default btn-mobile">
