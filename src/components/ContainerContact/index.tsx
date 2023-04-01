@@ -4,8 +4,8 @@ import "./style.scss";
 
 export default function ContainerContact(){
     useEffect(() => {
-        ScrollReveal().reveal('.containerContact_text', { origin:'left', distance:'100%', duration:2500 });
-        ScrollReveal().reveal('.containerContact_right', { origin:'rigth', distance:'100%', duration:1500 });
+        ScrollReveal().reveal('.containerContact_text', { origin:'left', distance:'100%', duration:2500, mobile:false});
+        ScrollReveal().reveal('.containerContact_right', { origin:'rigth', distance:'100%', duration:1500., mobile:false});
       }, []);
     return (
         <>

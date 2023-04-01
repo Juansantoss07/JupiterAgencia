@@ -4,8 +4,8 @@ import "./style.scss";
 
 export function ContainerHome(){
     useEffect(() => {
-        ScrollReveal().reveal('.containerHome_img', { origin:'right', distance:'100%', duration:2500 });
-        ScrollReveal().reveal('.containerHome_text', { origin:'left', distance:'100%', duration:2500 });
+        ScrollReveal().reveal('.containerHome_img', { origin:'right', distance:'100%', duration:2500 , mobile:false});
+        ScrollReveal().reveal('.containerHome_text', { origin:'left', distance:'100%', duration:2500 , mobile:false});
       }, []);
     
     return (
