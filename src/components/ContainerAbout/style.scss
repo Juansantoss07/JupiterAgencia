@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+
+.containerAbout{
+    height: auto;
+    background: $colorOrange;
+    background-position: center;
+    background-size: cover;
+    color: $textDefault;
+    background-attachment: fixed;
+
+    .containerAbout_background{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5rem 0;
+        width: 100%;
+        background-color: $backgroundAllBlack;
+        transition: 2s;
+
+
+        &:hover{
+            background: $colorOrangeHeader;
+        }
+
+        .containerAbout_title{
+            h2{
+                font-size: 42px;
+            }
+        }
+        .containerAbout_box{
+            width: 60%;
+    
+            p{
+                text-align: center;
+                margin-top: 2em;
+                font-size: 18px;
+            }
+        }
+    }
+
+   
+}

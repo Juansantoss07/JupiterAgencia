@@ -14,7 +14,7 @@ export function ContainerHome(){
                     </button>
                 </div>
                 <div className="containerHome_img">
-                    <img src="src/assets/imgs/mars.png" alt="Planet icons created by Freepik - Flaticon" />
+                    <img src="public/mars.png" alt="Planet icons created by Freepik - Flaticon" />
                 </div>
             </section>
         </>

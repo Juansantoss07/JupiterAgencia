@@ -1,7 +1,8 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { ContainerHome } from "./components/containerHome";
-import ContainerAbout from "./components/ContainerContact";
+import ContainerContact from "./components/ContainerContact";
+import ContainerAbout from "./components/ContainerAbout";
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <Header />
       <ContainerHome />
       <ContainerAbout />
+      <ContainerContact />
+      
       <Footer />
     </div>
   )

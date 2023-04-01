@@ -1,8 +1,23 @@
+@import "../../variables.scss";
+
 footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
-    padding: 2rem;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: $colorBlack;
+    color: $textDefault;
+    padding: 0 2rem;
+
+    span{
+        margin-top: 1em;
+        a{
+            color: $textDefault;
+            border-bottom: 1px solid $colorOrange;
+            text-decoration: none;
+            margin-left: .5em;
+        }
+    }
 }
