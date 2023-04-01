@@ -10,8 +10,7 @@
 .btn-default{
     padding: 1rem;
     cursor: pointer;
-    border-radius: 5px;
-    border: none;
+    border: 1px solid $colorOrange;
     background-color: $colorBlack;
     color: $textDefault;
     font-weight: 900;
@@ -21,6 +20,6 @@
     &:hover{
         background-color: $colorOrange;
         color: $colorBlack;
-        box-shadow: 10px 10px $colorBlack;
+        box-shadow: 10px 10px $colorOrangeHeader;
     }
 }

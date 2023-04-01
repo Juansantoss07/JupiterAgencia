@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import { ContainerHome } from "./components/containerHome";
+import ContainerAbout from "./components/ContainerContact";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Header />
       <ContainerHome />
+      <ContainerAbout />
       <Footer />
     </div>
   )

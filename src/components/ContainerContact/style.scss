@@ -1,0 +1,101 @@
+@import "../../variables.scss";
+
+.containerContact{
+    height: 70vh;
+    background-color: $backgroundAllBlack;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $textDefault;
+    flex-wrap: wrap;
+
+    .containerContact_text{
+        width: 40%;
+        padding: 0 4em;
+
+        p{
+            font-size: 42px;
+            margin-bottom: 1em;
+        }
+
+        span{
+            border-bottom: 2px dotted $colorOrange;
+        }
+    }
+
+    .containerContact_right{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: $colorOrange;
+        padding-left: 4rem;
+        color: $colorBlack;
+
+        .containerContact_btns{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 70%;
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+
+                .btn-mail{
+                    &:hover{
+                        color: $colorOrange;
+                        background-color: $textDefault;
+                    }
+
+                    svg{
+                        margin-right: .3em;
+                    }
+                }
+                
+                .btn-insta{
+                
+                    &:hover{
+                        color: $purple;
+                        background-color: $textDefault;
+                    }
+
+                    svg{
+                        margin-right: .3em;
+                    }
+                }
+
+                .btn-whatsapp{
+                    &:hover{
+                        color: $green;
+                        background-color: $textDefault;
+                    }
+
+                    svg{
+                        margin-right: .3em;
+                    }
+                }
+
+                .btn-twitter{
+                    &:hover{
+                        color: $blue;
+                        background-color: $textDefault;
+                    }
+
+                    svg{
+                        margin-right: .3em;
+                    }
+                }
+            }
+
+        }
+
+        p{
+            width: 80%;
+            font-size: 32px;
+            margin-bottom: 1em;
+        }
+    }
+}

@@ -15,18 +15,25 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    font-weight: 900;
+
+    .logo{
+      span{
+        font-size: 24px;
+      }
+    }
 
     a{
         color: $textDefault;  
           text-decoration: none;
           transition: .5s;
-          border-radius: $border-radiusDefault;
 
           &:hover{
             color: $colorBlack;
             background-color: $colorOrange;
             padding: .8em;
             transition: .5s;
+            box-shadow: 5px 5px $purple;
           }
     }
 
