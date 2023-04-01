@@ -45,6 +45,7 @@
                 text-decoration: none;
 
                 .btn-mail{
+                    margin: .5rem 0;
                     &:hover{
                         color: $colorOrange;
                         background-color: $textDefault;
@@ -56,7 +57,7 @@
                 }
                 
                 .btn-insta{
-                
+                    margin: .5rem 0;
                     &:hover{
                         color: $purple;
                         background-color: $textDefault;
@@ -68,6 +69,7 @@
                 }
 
                 .btn-whatsapp{
+                    margin: .5rem 0;
                     &:hover{
                         color: $green;
                         background-color: $textDefault;
@@ -79,6 +81,7 @@
                 }
 
                 .btn-twitter{
+                    margin: .5rem 0;
                     &:hover{
                         color: $blue;
                         background-color: $textDefault;
@@ -98,4 +101,38 @@
             margin-bottom: 1em;
         }
     }
+}
+
+//MOBILE
+@media (max-width:1200px){
+    .containerContact{
+
+        height: auto;
+        
+        .containerContact_right,
+        .containerContact_text{
+            padding: 2em;
+        }
+
+        .containerContact_btns{
+            flex-direction: column !important;
+        }
+    }
+   
+}
+
+@media (max-width:904px){
+    .containerContact{
+
+       flex-direction: column;
+
+       .containerContact_text,
+       .containerContact_right{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
+    }
+   
 }

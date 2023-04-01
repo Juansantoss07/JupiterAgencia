@@ -51,3 +51,12 @@ header{
           }
     }
 }
+
+
+@media (max-width:904px){
+  header{
+    ul{
+      display: none;
+    }
+  }
+}

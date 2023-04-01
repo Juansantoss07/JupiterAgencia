@@ -79,3 +79,24 @@
     }
 }
 
+
+//MOBILE
+@media (max-width:1060px){
+    .containerHome{
+        flex-direction: column;
+        padding-top: 10rem;
+
+        .containerHome_text,
+        .containerHome_img{
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+
+        .containerHome_img{
+            img{
+                width: 25% !important;
+            }
+        }
+    }
+}
