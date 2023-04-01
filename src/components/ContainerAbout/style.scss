@@ -45,6 +45,10 @@
 //MOBILE
 
 @media (max-width:904px){
+
+    .containerAbout_box{
+        width: 90% !important;
+    }
     .containerAbout_background{
         background-color: $colorOrangeHeader !important;
     }
