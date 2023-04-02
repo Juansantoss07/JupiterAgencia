@@ -3,6 +3,7 @@ import Footer from "./components/footer";
 import { ContainerHome } from "./components/containerHome";
 import ContainerContact from "./components/ContainerContact";
 import ContainerAbout from "./components/ContainerAbout";
+import ContainerGather from "./components/ContainerGather";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <ContainerHome />
       <ContainerAbout />
+      <ContainerGather />
       <ContainerContact />
       
       <Footer />
