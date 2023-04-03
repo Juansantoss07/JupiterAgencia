@@ -41,10 +41,11 @@
       color: $textDefault;
       text-decoration: none;
       width: 100%;
+      padding: .5em;
+      background-color: $colorBlack;
 
       li{
         list-style: none;
-        border-bottom: 2px solid $colorOrange;
       }
     }
   }

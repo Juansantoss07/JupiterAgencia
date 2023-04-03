@@ -39,9 +39,11 @@
             flex-direction: row;
             flex-wrap: wrap;
             width: 80%;
-            justify-content: space-between;
+            justify-content: flex-start;
 
             a{
+
+                margin: 0 .5em;
                 text-decoration: none;
 
                 .btn-mail{
