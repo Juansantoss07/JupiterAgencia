@@ -10,6 +10,10 @@ export default function Footer() {
                     Créditos pela imagem: 
                     <a href="https://www.flaticon.com/free-icons/planet" title="planet icons">Planet icons created by Freepik - Flaticon</a>
                 </span>
+                <span>
+                    Créditos pelo vídeo Gather: 
+                    <a href="https://www.gather.town/" title="Gather Town">Gather Town</a>
+                </span>
                
             </footer>
         </div>
