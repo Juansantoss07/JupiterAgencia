@@ -10,7 +10,7 @@
 
     .containerGather_left{
         width: 50%;
-        background-color: $colorOrange;
+        background-color: $colorBlack;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -21,6 +21,7 @@
         p{
             font-size: 32px;
             width: 90%;
+            color: $textDefault;
         }
     }
 
@@ -31,6 +32,7 @@
         align-items: center;
         justify-content: center;
         padding: 2em 0;
+        background-color: $colorBlack;
         
        video{
         width: 100%;
@@ -48,7 +50,6 @@
         .containerGather_left{
             width: 100%;
             padding: 2em;
-            background-color: $colorOrange;
 
             p{
                 width: 100%;
@@ -58,14 +59,8 @@
         .containerGather_right{
             width: 100%;
             height: auto;
-            padding: .3em;
-
-            background-color: $colorOrange;
-
-            video{
-                border-radius: 10px;
-                width: 100%;
-            }
+            padding: .3em 2em;
+            padding-bottom: 1em;
         }
     }
 }
