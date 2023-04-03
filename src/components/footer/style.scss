@@ -4,18 +4,19 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     height: 200px;
     background-color: $backgroundAllBlack;
     color: $textDefault;
     padding: 0 2rem;
+    border-top: 2px solid $colorBlack;
+    font-size: 10px;
 
     span{
         margin-top: 1em;
         a{
-            color: $textDefault;
-            border-bottom: 1px solid $colorOrange;
+            color: $colorOrange;
             text-decoration: none;
             margin-left: .5em;
         }

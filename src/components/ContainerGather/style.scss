@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50vh;
+    height: 100vh;
     background-color: $backgroundAllBlack;
     flex-wrap: wrap;
 
@@ -31,7 +31,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 2em 0;
+        padding-right: 4em;
         background-color: $colorBlack;
         
        video{
@@ -53,6 +53,7 @@
 
             p{
                 width: 100%;
+                font-size: 24px;
             }
         }
 
@@ -61,6 +62,7 @@
             height: auto;
             padding: .3em 2em;
             padding-bottom: 1em;
+            background-color: $colorBlack;
         }
     }
 }

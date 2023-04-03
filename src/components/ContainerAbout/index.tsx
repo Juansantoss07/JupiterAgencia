@@ -3,7 +3,7 @@ import "./style.scss";
 export default function ContainerAbout(){
     return (
         <>
-            <section className="containerAbout">
+            <section className="containerAbout" id="about">
                 <div className="containerAbout_background">
                 <div className="containerAbout_title">
                     <h2>Quem somos</h2>

@@ -19,7 +19,7 @@ function Header(){
         <div>
             <header>
                 <div className="logo">
-                    <a href="#"><span>Jupiter Agência</span></a>
+                    <a href="#home"><span>Jupiter Agência</span></a>
                 </div>
                 <div className="menu-btn-mobile" onClick={handleClickOpen}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" className="bi bi-list" viewBox="0 0 16 16">
@@ -27,9 +27,10 @@ function Header(){
                         </svg>
                 </div>
                 <ul>
-                <a href="#"><li>Início</li></a>
-                <a href="#"><li>Sobre nós</li></a>
-                <a href="#"><li>Contato</li></a>
+                <a href="#home"><li>Início</li></a>
+                <a href="#about"><li>Sobre nós</li></a>
+                <a href="#virtual_office"><li>Escritório Virtual</li></a>
+                <a href="#contact"><li>Contato</li></a>
                 </ul>
             </header>
             <div className="header-mobile">
@@ -39,13 +40,16 @@ function Header(){
                     </svg>
                     </div>
                     <ul>
-                        <a href="#">
+                        <a href="#home" onClick={handleClickClose}>
                             <li>Início</li>
                         </a>
-                        <a href="#">
+                        <a href="#about" onClick={handleClickClose}>
                             <li>Sobre nós</li>
                         </a>
-                        <a href="#">
+                        <a href="#virtual_office" onClick={handleClickClose}>
+                            <li>Escritório Virtual</li>
+                        </a>
+                        <a href="#contact" onClick={handleClickClose}>
                             <li>Contato</li>
                         </a>
                     </ul>

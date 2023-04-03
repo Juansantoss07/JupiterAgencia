@@ -1,7 +1,7 @@
 @import "../../variables.scss";
 
 .containerContact{
-    height: 50vh;
+    height: 100vh;
     background-color: $backgroundAllBlack;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
         }
 
         span{
-            border-bottom: 2px dotted $colorOrange;
+            color: $colorOrange;
         }
     }
 
@@ -38,7 +38,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            width: 70%;
+            width: 80%;
             justify-content: space-between;
 
             a{
@@ -130,9 +130,16 @@
         padding: 2em;
        }
 
+       .containerContact_text{
+        p{
+            font-size: 26px;
+        }
+       }
+
        .containerContact_right{
         p{
             width: 100%;
+            font-size: 24px;
         }
 
         .containerContact_btns{

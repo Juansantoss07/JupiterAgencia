@@ -9,7 +9,7 @@ export default function ContainerContact(){
       }, []);
     return (
         <>
-            <section className="containerContact">
+            <section className="containerContact" id='contact'>
                 <div className="containerContact_text">
                     <p>"A tecnologia e a inovação são a ponte entre o presente e o futuro."</p>
                     <span>Yotam Gingold</span>
