@@ -1,15 +1,17 @@
 import "./style.scss";
-let menu = document.querySelector('.header-mobile')as HTMLElement;
-let body = document.body;
 
 function Header(){
     function handleClickClose() {
+        const menu = document.querySelector('.header-mobile')as HTMLElement;
+        const body = document.body;
         menu.style.display = 'none';
         body.style.overflow = 'auto';
       }
 
 
     function handleClickOpen() {
+        const menu = document.querySelector('.header-mobile')as HTMLElement;
+        const body = document.body;
         menu.style.display = 'flex';
         body.style.overflow = 'hidden';
       }
