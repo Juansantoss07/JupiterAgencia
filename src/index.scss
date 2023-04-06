@@ -28,3 +28,10 @@ body{
         box-shadow: 10px 10px $colorOrangeHeader;
     }
 }
+
+//MOBILE
+@media(max-width:904px){
+    .btn-default{
+        pointer-events: none;
+    }
+}

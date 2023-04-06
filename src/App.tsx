@@ -4,6 +4,7 @@ import { ContainerHome } from "./components/containerHome";
 import ContainerContact from "./components/ContainerContact";
 import ContainerAbout from "./components/ContainerAbout";
 import ContainerGather from "./components/ContainerGather";
+import ContainerOurPlans from "./components/ContainerOurPlans";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <ContainerAbout />
       <ContainerGather />
       <ContainerContact />
+      <ContainerOurPlans />
       
       <Footer />
     </div>

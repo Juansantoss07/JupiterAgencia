@@ -31,6 +31,7 @@ function Header(){
                 <a href="#about"><li>Sobre nós</li></a>
                 <a href="#virtual_office"><li>Escritório Virtual</li></a>
                 <a href="#contact"><li>Contato</li></a>
+                <a href="#plataforms"><li>Plataformas</li></a>
                 </ul>
             </header>
             <div className="header-mobile">
@@ -51,6 +52,9 @@ function Header(){
                         </a>
                         <a href="#contact" onClick={handleClickClose}>
                             <li>Contato</li>
+                        </a>
+                        <a href="#plataforms" onClick={handleClickClose}>
+                            <li>Plataformas</li>
                         </a>
                     </ul>
                 </div>

@@ -23,7 +23,7 @@
         width: 50%;
 
         img{
-            width: 60%;
+            width: 100%;
             transition: 1s;
             animation: moveJupiter 3s linear infinite;
 
@@ -85,6 +85,7 @@
     .containerHome{
         flex-direction: column;
         padding-top: 8em;
+        align-items: center;
 
         .containerHome_text{
             p{
@@ -103,5 +104,9 @@
             align-items: center;
             text-align: center;
         }
+
+        .containerHome_img{
+            width: 50%;
+        }        
     }
 }
