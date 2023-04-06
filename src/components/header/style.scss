@@ -44,6 +44,7 @@
       padding: .5em;
       background-color: $colorBlack;
       margin: .3em 0;
+      border-radius: 10px;
 
       li{
         list-style: none;
@@ -132,6 +133,19 @@ header{
 
     ul{
       display: none;
+    }
+  }
+}
+
+@media(max-height:705px){
+  .header-mobile{
+    justify-content: flex-start;
+
+    ul{
+      overflow: scroll;
+      margin-bottom: 0;
+      height: 100%;
+      padding: 6em 2em 0 2em;
     }
   }
 }
