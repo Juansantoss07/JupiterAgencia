@@ -6,10 +6,10 @@ import ContainerAbout from "./components/ContainerAbout";
 import ContainerGather from "./components/ContainerGather";
 import ContainerOurPlans from "./components/ContainerOurPlans";
 
-function App() {
 
+function App() {
   return (
-    <div>
+    <div className="app">
       <Header />
       <ContainerHome />
       <ContainerAbout />

@@ -18,7 +18,7 @@ export default function ContainerOurPlans(){
                 </div>
                 <div className="container-ourplans_plan">
                     <h3>PontoCom</h3>
-                    <img src="https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
+                    <img src="https://images.pexels.com/photos/6940093/pexels-photo-6940093.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="imagem" />
                     <p>PontoCom é uma plataforma de portfolio que permite aos usuários criar um portfolio on-line personalizado, exibir e compartilhar facilmente seus trabalhos de forma elegante e profissional.</p>
                     <button className="btn-default">Quero esse</button>
                 </div>

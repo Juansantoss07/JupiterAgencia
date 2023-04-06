@@ -2,17 +2,21 @@ import "./style.scss";
 
 function Header(){
 
+    let menu = document.querySelector('.header-mobile')as HTMLElement;
+    let body = document.body;
     function handleClickClose() {
-        const menu = document.querySelector('.header-mobile')as HTMLElement;
+    
 
         menu.style.display = 'none';
+        body.style.overflow = 'auto';
       }
 
 
     function handleClickOpen() {
-        const menu = document.querySelector('.header-mobile')as HTMLElement;
+        
 
         menu.style.display = 'flex';
+        body.style.overflow = 'hidden';
       }
     
     return (
@@ -53,7 +57,7 @@ function Header(){
                         <a href="#contact" onClick={handleClickClose}>
                             <li>Contato</li>
                         </a>
-                        <a href="#plataforms" onClick={handleClickClose}>
+                        <a href="#lataforms" onClick={handleClickClose}>
                             <li>Plataformas</li>
                         </a>
                     </ul>
