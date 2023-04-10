@@ -52,6 +52,10 @@
         button{
             margin-top: 1em;
         }
+
+        .btn-home{
+            border: 1px solid $colorOrange;
+        }
     }
 }
 
@@ -89,12 +93,11 @@
 
         .containerHome_text{
             p{
-                font-size: 16px;
+                font-size: 14px;
             }
             .btn-mobile{
                 background-color: $colorOrange;
                 color: $colorBlack;
-                box-shadow: 10px 10px $colorOrangeHeader;
             }
         }
 

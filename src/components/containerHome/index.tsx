@@ -22,7 +22,7 @@ export function ContainerHome(){
                     <p className='maquina-escrever'>
                         O futuro é digital - e nós o construímos.
                     </p>
-                    <button onClick={linkContact} className="btn-default btn-mobile">
+                    <button onClick={linkContact} className="btn-default btn-home btn-mobile">
                         Entre em contato
                     </button>
                 </div>

@@ -19,7 +19,7 @@
         }
 
         span{
-            color: $colorOrange;
+            color: $purple;
         }
     }
 
@@ -30,7 +30,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        background-color: $colorOrange;
+        background-color: $purple;
         padding-left: 4rem;
         color: $colorBlack;
 
@@ -147,7 +147,18 @@
         .containerContact_btns{
             width: 100%;
 
-
+            a{
+                .btn-insta,
+                .btn-mail,
+                .btn-twitter,
+                .btn-whatsapp{
+                    &:hover{
+                        background-color: $colorBlack;
+                        color: $textDefault;
+                    }
+                }
+            }
+            
             svg{
                 margin-right: 0 !important;
             }

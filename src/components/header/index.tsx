@@ -54,7 +54,7 @@ function Header(){
                         <a href="#contact" onClick={handleClickClose}>
                             <li>Contato</li>
                         </a>
-                        <a href="#lataforms" onClick={handleClickClose}>
+                        <a href="#plataforms" onClick={handleClickClose}>
                             <li>Plataformas</li>
                         </a>
                     </ul>

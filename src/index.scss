@@ -15,7 +15,7 @@ body{
 .btn-default{
     padding: 1rem;
     cursor: pointer;
-    border: 1px solid $colorOrange;
+    border: none;
     background-color: $colorBlack;
     color: $textDefault;
     font-weight: 900;
@@ -32,6 +32,10 @@ body{
 //MOBILE
 @media(max-width:904px){
     .btn-default{
-        pointer-events: none;
+        &:hover{
+            background-color: $colorBlack;
+            color: $textDefault;
+            box-shadow: none;
+        }
     }
 }
