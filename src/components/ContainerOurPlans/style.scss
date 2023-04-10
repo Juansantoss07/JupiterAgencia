@@ -51,8 +51,8 @@
             }
             
             &:hover{
-                box-shadow: 10px 10px 15px $backgroundAllBlack;
-                transform: scale(1.1);
+                box-shadow: 10px 10px 15px $purple;
+                
             }
 
             img{
@@ -93,6 +93,10 @@
                 text-align: center;
                 min-height: 600px;
                 background-color: $backgroundAllBlack;
+
+                p{
+                    height: 250px;
+                }
 
                 .btn-plan{
                     &:hover{

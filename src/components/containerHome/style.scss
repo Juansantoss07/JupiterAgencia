@@ -55,6 +55,12 @@
 
         .btn-home{
             border: 1px solid $colorOrange;
+            
+            &:hover{
+                background: linear-gradient(to right, $colorOrange, $pink);
+                border: none;
+                border: 1px solid transparent;
+            }
         }
     }
 }
@@ -96,8 +102,10 @@
                 font-size: 14px;
             }
             .btn-mobile{
-                background-color: $colorOrange;
+                background:linear-gradient(to right, $colorOrange, $pink) !important;
                 color: $colorBlack;
+                border-radius: 5px;
+                border: none;
             }
         }
 
