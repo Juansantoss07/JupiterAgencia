@@ -19,7 +19,7 @@
         }
 
         span{
-            color: $purple;
+            color: $colorOrange;
         }
     }
 
@@ -30,7 +30,7 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        background-color: $purple;
+        background-color: $colorOrange;
         padding-left: 4rem;
         color: $colorBlack;
 
@@ -61,7 +61,7 @@
                 .btn-insta{
                     margin: .5rem 0;
                     &:hover{
-                        color: $purple;
+                        color: $colorOrange;
                         background-color: $textDefault;
                     }
 
