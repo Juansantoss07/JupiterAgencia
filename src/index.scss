@@ -6,10 +6,30 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
+    &::-webkit-scrollbar {
+        width: 6px;          
+      }
+      
+      &::-webkit-scrollbar-track {
+        background: $colorBlack;  
+        border-radius: 20px;     
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background-color: $colorOrange;   
+        border-radius: 20px;      
+      }
 }
 
 body{
     overflow-x: hidden;
+}
+
+.breve{
+    cursor: not-allowed !important;
+    background-color: $colorOrange !important;
+    border: none !important;
 }
 
 .btn-default{
@@ -21,6 +41,7 @@ body{
     font-weight: 900;
     font-size: 18px;
     transition: .5s;
+    border-radius: 10px;
 
     &:hover{
         background-color: $colorOrange;

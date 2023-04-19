@@ -33,6 +33,7 @@
         background-color: $colorOrange;
         padding-left: 4rem;
         color: $colorBlack;
+        border-radius: 100px 0 0 100px;
 
         .containerContact_btns{
             display: flex;
@@ -61,7 +62,7 @@
                 .btn-insta{
                     margin: .5rem 0;
                     &:hover{
-                        color: $colorOrange;
+                        color: $purple;
                         background-color: $textDefault;
                     }
 
