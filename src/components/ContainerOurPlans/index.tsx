@@ -26,20 +26,23 @@ export default function ContainerOurPlans(){
                </div>
 
                <div className="container-ourplans_plans">
+
+               <div className="container-ourplans_plan">
+                    <h3>PontoCom</h3>
+                    <img src="/printPontocom.png" alt="imagem"/>
+                    <p>PontoCom é uma plataforma de portfolio que permite aos usuários criar um portfolio on-line personalizado, exibir e compartilhar facilmente seus trabalhos de forma elegante e profissional. 
+                    </p>
+                    <button onClick={linkPontoComPlataform} className="btn-default btn-plan view-product-btn">Vizualizar Plataforma</button>
+                    <button onClick={linkPontoCom} className="btn-default btn-plan">Quero esse</button>
+                </div>
+
                 <div className="container-ourplans_plan">
                     <h3>Converto</h3>
                     <img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
                     <p>Converto é uma plataforma de criação de landing pages que permite aos usuários criar páginas de destino personalizadas para campanhas de marketing on-line, com modelos, testes A/B e integração com outras ferramentas.</p>
                     <button onClick={linkConverto} className="btn-default btn-plan breve">Em breve</button>
                 </div>
-                <div className="container-ourplans_plan">
-                    <h3>PontoCom</h3>
-                    <img src="/printPontocom.png" alt="imagem"/>
-                    <p>PontoCom é uma plataforma de portfolio que permite aos usuários criar um portfolio on-line personalizado, exibir e compartilhar facilmente seus trabalhos de forma elegante e profissional. 
-                    </p>
-                    <button onClick={linkPontoComPlataform} className="btn-default btn-plan">Vizualizar Plataforma</button>
-                    <button onClick={linkPontoCom} className="btn-default btn-plan">Quero esse</button>
-                </div>
+
                 <div className="container-ourplans_plan">
                     <h3>ProductX</h3>
                     <img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
