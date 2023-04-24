@@ -22,6 +22,7 @@
     border-radius: 10px;
     background-color: $colorBlack;
     margin-left: 4em;
+    margin-top: 2em;
 
     svg{
       color: $colorOrange;
@@ -148,7 +149,7 @@ header{
   }
 }
 
-@media(max-height:705px){
+@media(max-height:820px){
   .header-mobile{
     justify-content: flex-start;
 
@@ -156,7 +157,7 @@ header{
       overflow: scroll;
       margin-bottom: 0;
       height: 100%;
-      padding: 6em 2em 0 2em;
+      padding: 2em;
     }
   }
 }
