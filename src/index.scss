@@ -32,7 +32,6 @@ body{
 
 .breve{
     cursor: not-allowed !important;
-    background-color: $colorOrange !important;
     border: none !important;
 }
 
@@ -45,12 +44,12 @@ body{
     font-weight: 900;
     font-size: 18px;
     transition: .5s;
-    border-radius: 10px;
+
 
     &:hover{
-        background-color: $colorOrange;
-        color: $colorBlack;
         box-shadow: 10px 10px $colorOrangeHeader;
+        background: linear-gradient(to right, $colorOrange, $pink);
+        border: none;
     }
 }
 

@@ -55,12 +55,6 @@
 
         .btn-home{
             border: 1px solid $colorOrange;
-            
-            &:hover{
-                background: linear-gradient(to right, $colorOrange, $pink);
-                border: none;
-                border: 1px solid transparent;
-            }
         }
     }
 }

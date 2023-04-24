@@ -90,13 +90,13 @@ header{
         color: $textDefault;  
           text-decoration: none;
           transition: .5s;
+          padding: .5em;
 
           &:hover{
-            color: $colorBlack;
-            background-color: $colorOrange;
-            padding: .8em;
-            transition: .5s;
-            border-radius: 10px;
+            box-shadow: 10px 10px $colorOrangeHeader;
+            background: linear-gradient(to right, $colorOrange, $pink);
+            border: none;
+            transform: scale(1.1);
           }
     }
 
