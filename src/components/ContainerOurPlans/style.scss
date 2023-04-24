@@ -30,7 +30,7 @@
             flex-direction: column;
             align-items: center;
             padding: 2em;
-            border: 1px solid transparent;
+            border: 2px solid $colorBlack;
             color: $textDefault;
             justify-content: space-around;
             height: auto;
@@ -54,7 +54,7 @@
             }
             
             &:hover{
-                border: 1px solid $colorOrange;
+                border: 2px solid $colorOrange;
             }
 
             img{
