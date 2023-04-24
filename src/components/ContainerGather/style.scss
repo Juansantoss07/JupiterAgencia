@@ -47,7 +47,7 @@
 @media(max-width:904px){
     .containerGather{
         flex-direction: column;
-        height: auto;
+        min-height: auto;
 
         .containerGather_left{
             width: 100%;
