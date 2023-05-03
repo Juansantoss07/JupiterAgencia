@@ -38,15 +38,17 @@ export default function ContainerOurPlans(){
 
                 <div className="container-ourplans_plan">
                     <h3>Converto</h3>
-                    <img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
+                    <img src="https://images.pexels.com/photos/8474472/pexels-photo-8474472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
                     <p>Converto é uma plataforma de criação de landing pages que permite aos usuários criar páginas de destino personalizadas para campanhas de marketing on-line, com modelos, testes A/B e integração com outras ferramentas.</p>
+                    <button  className="btn-default btn-plan breve view-product-btn">Vizualizar Plataforma</button>
                     <button onClick={linkConverto} className="btn-default btn-plan breve">Em breve</button>
                 </div>
 
                 <div className="container-ourplans_plan">
                     <h3>ProductX</h3>
-                    <img src="https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
+                    <img src="https://images.pexels.com/photos/7672263/pexels-photo-7672263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
                     <p>ProductX é uma plataforma de ecommerce que permite criar uma loja virtual personalizada com gerenciamento de produtos, pagamentos e rastreamento de pedidos.</p>
+                    <button  className="btn-default btn-plan breve view-product-btn">Vizualizar Plataforma</button>
                     <button onClick={linkProductX} className="btn-default btn-plan breve">Em breve</button>
                 </div>
                </div>
