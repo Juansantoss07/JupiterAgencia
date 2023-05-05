@@ -4,7 +4,7 @@ function Header(){
     function handleClickClose() {
         const menu = document.querySelector('.header-mobile')as HTMLElement;
         const body = document.body;
-        menu.style.display = 'none';
+        menu.classList.remove("open");
         body.style.overflow = 'auto';
       }
 
@@ -12,7 +12,7 @@ function Header(){
     function handleClickOpen() {
         const menu = document.querySelector('.header-mobile')as HTMLElement;
         const body = document.body;
-        menu.style.display = 'flex';
+        menu.classList.add("open");
         body.style.overflow = 'hidden';
       }
     

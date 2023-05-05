@@ -2,27 +2,26 @@
 
 .header-mobile{
   background-color: $colorOrangeHeader;
-  backdrop-filter: blur(12px);
+  backdrop-filter: blur(30px);
   position: fixed;
-  left: 0;
-  right:0;
+  left: -1200px;
+  right: 1200px;
   bottom: 0 ;
   top: 0;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
-  display: none;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-start;
+  // justify-content: space-around;
   height: 100%;
+  transition: .5s;
 
   .btn-close-header{
     width: auto;
     padding: 1em;
-    border-radius: 10px;
     background-color: $colorBlack;
-    margin-left: 4em;
-    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-top: 1em;
 
     svg{
       color: $colorOrange;
@@ -30,31 +29,44 @@
   }
 
   ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 50%;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    font-weight: 900;
-    font-size: 32px;
-    padding: 0 2em;
-    margin-bottom: 4em;
+    height: 100%;
     width: 100%;
 
     a{
-      color: $textDefault;
       text-decoration: none;
-      width: 100%;
-      padding: .5em;
-      background-color: $colorBlack;
-      margin: .3em 0;
-      border-radius: 10px;
-
-      li{
-        list-style: none;
-      }
+      color: $textDefault;
+      text-transform: uppercase;
     }
+
+    li{
+      list-style: none;
+      margin: 2em 0;
+    }
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: nowrap;
+    // height: 50%;
+    // align-items: flex-start;
+    // justify-content: space-evenly;
+    // font-weight: 900;
+    // font-size: 32px;
+    // padding: 0 2em;
+    // margin-bottom: 4em;
+    // width: 100%;
+
+    // a{
+    //   color: $textDefault;
+    //   text-decoration: none;
+    //   width: 100%;
+    //   padding: .5em;
+    //   background-color: $colorBlack;
+    //   margin: .3em 0;
+    //   border-radius: 10px;
+
+    //   li{
+    //     list-style: none;
+    //   }
+    // }
   }
 }
 
@@ -123,6 +135,10 @@ header{
   }
 }
 
+.open{
+  left: 0 !important;
+  right: 80px !important;
+}
 
 //MOBILE
 @media (max-width:904px){

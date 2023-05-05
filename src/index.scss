@@ -58,7 +58,7 @@ body{
 @media(max-width:904px){
     .btn-default{
         &:hover{
-            background-color: $colorBlack !important;
+            background: $colorBlack !important;
             color: $textDefault !important;
             box-shadow: none !important;
         }
