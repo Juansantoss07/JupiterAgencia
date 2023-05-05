@@ -5,7 +5,7 @@
   backdrop-filter: blur(30px);
   position: fixed;
   left: -1200px;
-  right: 1200px;
+  right: auto;
   bottom: 0 ;
   top: 0;
   z-index: 2;
@@ -138,6 +138,11 @@ header{
 .open{
   left: 0 !important;
   right: 80px !important;
+}
+
+.close{
+  left: -1200px;
+  right: 1200px;
 }
 
 //MOBILE

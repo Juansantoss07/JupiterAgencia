@@ -5,6 +5,7 @@ function Header(){
         const menu = document.querySelector('.header-mobile')as HTMLElement;
         const body = document.body;
         menu.classList.remove("open");
+        menu.classList.add("close");
         body.style.overflow = 'auto';
       }
 
@@ -13,6 +14,7 @@ function Header(){
         const menu = document.querySelector('.header-mobile')as HTMLElement;
         const body = document.body;
         menu.classList.add("open");
+        menu.classList.remove("close");
         body.style.overflow = 'hidden';
       }
     
