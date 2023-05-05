@@ -78,7 +78,7 @@
 //MOBILE
 @media(max-width:904px){
     .container-ourplans{
-        padding: 2em 1em;
+        padding: 2em .5em;
         height: auto;
 
         .container-ourplans_title{
@@ -96,6 +96,12 @@
                 text-align: center;
                 min-height: 600px;
                 background-color: $backgroundAllBlack;
+                border: 1px solid #444;
+                padding: .5em;
+
+                img{
+                    border-radius: 10px;
+                }
 
                 p{
                     height: 250px;
