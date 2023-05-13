@@ -62,14 +62,21 @@
 @keyframes moveJupiter{
     0%{
         width: 50%;
+        filter: contrast();
     }
 
     50%{
         width: 55%;
+        filter: contrast(1.5);
+    }
+
+    75%{
+        filter: contrast(2.5);
     }
 
     100%{
         width: 50%;
+        filter: none;
     }
 }
 
