@@ -1,5 +1,6 @@
 import "./style.scss";
 
+
 function Header(){
     function handleClickClose() {
         const menu = document.querySelector('.header-mobile')as HTMLElement;

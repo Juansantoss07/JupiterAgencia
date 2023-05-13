@@ -18,6 +18,10 @@ export default function ContainerOurPlans(){
         window.open('https://pontocom.netlify.app');
     }
 
+    const linkProductX_Plataform = () => {
+        window.open('https://jupiteragencia-ecommerce.epizy.com');
+    }
+
     return (
         <>
             <section className="container-ourplans" id="plataforms">
@@ -28,28 +32,30 @@ export default function ContainerOurPlans(){
                <div className="container-ourplans_plans">
 
                <div className="container-ourplans_plan">
-                    <h3>PontoCom</h3>
-                    <img src="/printPontocom.png" alt="imagem"/>
+                    <h3>JupiWork</h3>
+                   <video src="/pontocom.mp4" muted loop autoPlay></video>
                     <p>PontoCom é uma plataforma de portfolio que permite aos usuários criar um portfolio on-line personalizado, exibir e compartilhar facilmente seus trabalhos de forma elegante e profissional. 
                     </p>
                     <button onClick={linkPontoComPlataform} className="btn-default btn-plan view-product-btn">Vizualizar Plataforma</button>
                     <button onClick={linkPontoCom} className="btn-default btn-plan">Quero esse</button>
                 </div>
 
+
+
                 <div className="container-ourplans_plan">
-                    <h3>Converto</h3>
+                    <h3>JupiShop</h3>
+                    <video src="/productX.mp4" muted autoPlay loop></video>
+                    <p>ProductX é uma plataforma de ecommerce que permite ter uma loja virtual personalizada com gerenciamento de produtos, pagamentos e rastreamento de pedidos.</p>
+                    <button onClick={linkProductX_Plataform}  className="btn-default btn-plan view-product-btn">Vizualizar Plataforma</button>
+                    <button onClick={linkProductX} className="btn-default btn-plan">Quero esse</button>
+                </div>
+
+                <div className="container-ourplans_plan">
+                    <h3>JupiConverto</h3>
                     <img src="https://images.pexels.com/photos/8474472/pexels-photo-8474472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
                     <p>Converto é uma plataforma de landing pages que permite aos usuários ter páginas de destino personalizadas para campanhas de marketing on-line, com modelos, testes A/B e integração com outras ferramentas.</p>
                     <button  className="btn-default btn-plan breve view-product-btn">Vizualizar Plataforma</button>
                     <button onClick={linkConverto} className="btn-default btn-plan breve">Em breve</button>
-                </div>
-
-                <div className="container-ourplans_plan">
-                    <h3>ProductX</h3>
-                    <img src="https://images.pexels.com/photos/7672263/pexels-photo-7672263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem" />
-                    <p>ProductX é uma plataforma de ecommerce que permite ter uma loja virtual personalizada com gerenciamento de produtos, pagamentos e rastreamento de pedidos.</p>
-                    <button  className="btn-default btn-plan breve view-product-btn">Vizualizar Plataforma</button>
-                    <button onClick={linkProductX} className="btn-default btn-plan breve">Em breve</button>
                 </div>
                </div>
             </section>
