@@ -38,10 +38,11 @@
             width: 25%;
             text-align: start;
             transition: .5s;
-            background: linear-gradient(145deg, #242424, #1f1f1f);
+            background: linear-gradient(145deg, #111, #1f1f1f);
             border: 2px solid #222;
             box-shadow:  20px 20px 60px #1d1d1d,
             -20px -20px 60px #272727;
+            border-radius: 10px;
 
 
             button{
