@@ -52,7 +52,7 @@ export default function ContainerOurPlans(){
 
                 <div className="container-ourplans_plan">
                     <h3>JupiConverto</h3>
-                     <video src="https://cdn.pixabay.com/vimeo/365890968/Falha%20-%2027706.mp4?width=1280&hash=8203677799700d317b9476ee15036206eac6681b"></video>
+                    <video src="https://cdn.pixabay.com/vimeo/365890968/Falha%20-%2027706.mp4?width=1280&hash=8203677799700d317b9476ee15036206eac6681b"></video>
                     <p>Converto é uma plataforma de landing pages que permite aos usuários ter páginas de destino personalizadas para campanhas de marketing on-line, com modelos, testes A/B e integração com outras ferramentas.</p>
                     <button  className="btn-default btn-plan breve view-product-btn">Vizualizar Plataforma</button>
                     <button onClick={linkConverto} className="btn-default btn-plan breve">Em breve</button>
