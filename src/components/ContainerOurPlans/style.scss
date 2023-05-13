@@ -65,6 +65,9 @@
                 transition: 1s;
                 margin: .5em 0;
                 height: 200px;
+            }
+
+            img{
                 object-fit: cover;
             }
 
@@ -99,7 +102,7 @@
                 min-height: auto !important;
                 background: $backgroundAllBlack !important;
 
-                img{
+                img, video{
                    border-radius: 10px;
                 }
 
