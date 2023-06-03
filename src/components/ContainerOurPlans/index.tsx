@@ -11,7 +11,7 @@ export default function ContainerOurPlans(){
     }
 
     const linkProductX = () => {
-        // window.open('https://api.whatsapp.com/send?phone=13134707492&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%3A%20*ProductX*');
+         window.open('https://api.whatsapp.com/send?phone=13134707492&text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%3A%20*ProductX*');
     }
 
     const linkPontoComPlataform = () => {
