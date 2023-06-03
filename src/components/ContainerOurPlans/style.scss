@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: auto;
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: $colorBlack;
     padding: 4em 0;
 
@@ -42,7 +42,6 @@
             text-align: start;
             transition: .5s;
             background: #111;
-            border-radius: 10px;
 
             &:hover{
                 box-shadow: 10px 10px 10px #111;

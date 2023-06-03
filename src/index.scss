@@ -13,14 +13,16 @@
       }
       
       &::-webkit-scrollbar-track {
-        background: $colorBlack;  
-        border-radius: 20px;     
+        background: $colorBlack;    
       }
       
       &::-webkit-scrollbar-thumb {
-        background-color: $colorOrange;   
-        border-radius: 20px;      
+        background-color: $colorOrange;      
       }
+}
+.btn-compre{
+    background-color: $green !important;
+    color: #000 !important;
 }
 
 .view-product-btn{
@@ -34,6 +36,7 @@ body{
 .breve{
     cursor: not-allowed !important;
     border: none !important;
+    background-color: red !important;
 }
 
 .btn-default{
