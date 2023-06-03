@@ -124,7 +124,7 @@
 @media (max-width:904px){
     .containerContact{
        min-height: auto;
-       flex-direction: column;
+       flex-direction: column-reverse;
 
        .containerContact_text,
        .containerContact_right{

@@ -21,9 +21,11 @@
       }
 }
 .btn-compre{
-    background-color: $green !important;
-    color: #000 !important;
     text-transform: uppercase;
+    border: 1px solid $green !important;
+    transition: 0 !important;
+    background-color: $green !important;
+    color: $colorBlack !important;
 }
 
 .view-product-btn{
@@ -37,8 +39,8 @@ body{
 .breve{
     cursor: not-allowed !important;
     border: none !important;
-    background-color: red !important;
     text-transform: uppercase;
+    border: 1px solid red !important;
 }
 
 .btn-default{
@@ -51,7 +53,7 @@ body{
     font-size: 18px;
     transition: .5s;
     border: 1px solid transparent;
-
+    border-radius: 10px;
 
 
     &:hover{
