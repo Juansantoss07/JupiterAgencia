@@ -1,7 +1,6 @@
 @import "../../variables.scss";
 
 .containerHome{
-    background:$colorBlack;
     height:100vh;
     padding-top: 70px;
 
@@ -36,7 +35,7 @@
 
     .containerHome_text{
         align-items: flex-start;
-        color: $textDefault;
+        color: $colorBlack;
         width: 40%;
 
         h1{

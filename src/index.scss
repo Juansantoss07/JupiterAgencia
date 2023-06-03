@@ -23,6 +23,7 @@
 .btn-compre{
     background-color: $green !important;
     color: #000 !important;
+    text-transform: uppercase;
 }
 
 .view-product-btn{
@@ -37,6 +38,7 @@ body{
     cursor: not-allowed !important;
     border: none !important;
     background-color: red !important;
+    text-transform: uppercase;
 }
 
 .btn-default{
