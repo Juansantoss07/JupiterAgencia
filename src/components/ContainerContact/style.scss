@@ -31,7 +31,9 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
-        background: linear-gradient(to right, $colorOrange, $pink);
+        // background: linear-gradient(to right, $colorOrange, $pink);
+        background:#fff;
+        border: 2px solid black;
         padding-left: 4rem;
         color: $colorBlack;
 

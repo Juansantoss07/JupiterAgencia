@@ -5,13 +5,13 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 400px;
-    background-color: $backgroundAllBlack;
-    color: $textDefault;
+    background-color: #fff;
+    color: $colorBlack;
     padding: 10em 2rem;
     border-top: 2px solid $colorBlack;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif !important;
 
     .left, .right{
@@ -28,6 +28,7 @@ footer{
             color: $colorOrange;
             text-decoration: none;
             margin-left: .5em;
+            font-weight: 700;
         }
     }
 }
