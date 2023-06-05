@@ -80,7 +80,7 @@ header{
     padding: 0 1rem;
     height: 70px;
     flex-wrap: wrap;
-    background-color: $colorOrangeHeader;
+    background-color:  rgb(255 255 255 / 66%);
     backdrop-filter: blur(12px);
     position: fixed;
     top: 0;
@@ -100,7 +100,7 @@ header{
     }
 
     a{
-        color: $textDefault;  
+        color: $colorBlack;  
           text-decoration: none;
           transition: .5s;
           padding: .5em;
@@ -123,6 +123,7 @@ header{
 
         li{
             list-style: none;
+            text-transform: uppercase;
           }
     }
 }

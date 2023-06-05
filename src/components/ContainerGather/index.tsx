@@ -12,7 +12,7 @@ export default function ContainerGather(){
         <>
             <div className="containerGather" id='virtual_office'>
             <div className="containerGather_left">
-              <p>A Jupiter Agência é uma empresa tão moderna, inovadora e digital que até seu espaço é 100% virtual. Além de atuar 100% em home office, agora temos um espaço virtual onde são realizadas as dailys, reuniões com o time e até mesmo com os clientes convidados.</p>
+              <p>Ao se tornar cliente da Jupiter Agência, você receberá um link de acesso ao nosso escritório virtual. Com esse link você poderá entrar no escritório quando quiser em horário comercial para tirar dúvidas ou pedir algum suporte falando ao vivo diretamente com nossos desenvolvedores. <br /> <br /> Na Jupiter você não precisa esperar seu e-mail ser repondido.</p>
             </div>
             <div className="containerGather_right">
                 <video src="https://assets-global.website-files.com/60ca686c96b42034829a80d3/6334652d0cb5c3fa361eb33c_Gather-Spontaneous-Conversations-transcode.mp4" autoPlay loop muted></video>

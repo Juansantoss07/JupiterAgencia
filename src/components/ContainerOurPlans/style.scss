@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: auto;
-    min-height: 150vh;
+    min-height: auto;
     padding: 4em 0;
 
     .container-ourplans_title{
@@ -33,18 +33,17 @@
             align-items: center;
             padding: 2em;
             border: 2px solid $colorBlack;
-            color: $textDefault;
+            color: $colorBlack;
             justify-content: space-around;
             height: auto;
             min-height: 700px;
-            width: 25%;
+            width: 28%;
             text-align: start;
             transition: .5s;
-            background: #111;
-            border-radius: 10px;
+            background: #eee;
 
             &:hover{
-                box-shadow: 10px 10px 10px #111;
+               transform: scale(1.1)
             }
 
             button{

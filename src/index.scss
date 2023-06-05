@@ -38,9 +38,8 @@ body{
 
 .breve{
     cursor: not-allowed !important;
-    border: none !important;
     text-transform: uppercase;
-    border: 1px solid red !important;
+    background-color: red !important;
 }
 
 .btn-default{
@@ -52,14 +51,11 @@ body{
     font-weight: 900;
     font-size: 18px;
     transition: .5s;
-    border: 1px solid transparent;
-    border-radius: 10px;
-
+    border: 1px solid !important;
 
     &:hover{
         box-shadow: 10px 10px $colorOrangeHeader;
         background:$backgroundAllBlack;
-        border: 1px solid !important;
     }
 }
 
