@@ -18,16 +18,16 @@ export function ContainerHome(){
         <>
             <section className="containerHome" id='home'>
                 <div className="containerHome_text">
-                    <h1>Jupiter Agência</h1>
+                    <h1>ExpanseX</h1>
                     <p className='maquina-escrever'>
-                        O futuro é digital - e nós o construímos.
+                        Expandindo fronteiras digitais
                     </p>
                     <button onClick={linkContact} className="btn-default btn-home btn-mobile">
                         Entre em contato
                     </button>
                 </div>
                 <div className="containerHome_img">
-                    <img src="/jupiter1.png" alt="Planet icons created by Freepik - Flaticon" />
+                    <img src="/menina-pc.jpg" alt="Planet icons created by Freepik - Flaticon" />
                 </div>
             </section>
         </>

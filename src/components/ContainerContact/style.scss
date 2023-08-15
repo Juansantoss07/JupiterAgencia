@@ -20,7 +20,7 @@
         }
 
         span{
-            color: $colorOrange;
+            color: $blue;
         }
     }
 
@@ -41,7 +41,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            width: 80%;
+            width: 90%;
             justify-content: flex-start;
 
             a{
@@ -52,7 +52,7 @@
                 .btn-mail{
                     margin: .5rem 0;
                     &:hover{
-                        color: $colorOrange;
+                        color: $blue;
                         background-color: $textDefault;
                     }
 

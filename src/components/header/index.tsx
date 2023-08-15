@@ -23,7 +23,7 @@ function Header(){
         <div>
             <header>
                 <div className="logo">
-                    <a href="#home"><span>Jupiter Agência</span></a>
+                    <a id="logo-link" href="#home"><span>ExpanseX</span></a>
                 </div>
                 <div className="menu-btn-mobile" onClick={handleClickOpen}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" className="bi bi-list" viewBox="0 0 16 16">

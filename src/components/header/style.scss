@@ -107,10 +107,18 @@ header{
 
           &:hover{
             box-shadow: 10px 10px $colorOrangeHeader;
-            background: linear-gradient(to right, $colorOrange, $pink);
+            background: linear-gradient(to right, $blue, $purple);
             border: none;
             transform: scale(1.1);
+            color: $textDefault;
           }
+    }
+
+    #logo-link{
+      &:hover{
+        box-shadow: none;
+        background: transparent !important;
+      }
     }
 
     ul{
